@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+; First 8: 00,00,00,00,00,00,00,00 - always zero
+; Next 4: 02,00,00,00 - (number of mappings +1) - this example means one key mapping
+; Next 4 (repeat for multiple mappings according to counter above): 1d,e0,38,e0 - map *FROM* 38,e0 *TO* 1d,e0
+; Always end with 00,00,00,00
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
+"Scancode Map"=hex:00,00,00,00,00,00,00,00,02,00,00,00,1d,e0,38,e0,00,00,00,00
