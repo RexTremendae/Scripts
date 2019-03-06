@@ -1,0 +1,46 @@
+[alias]
+    fp      = "push --force-with-lease"
+    graph   = "log --graph --pretty=format:'%C(cyan)%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(yellow)<%an>%Creset' --abbrev-commit"
+    ign     = "update-index --assume-unchanged"
+    unign   = "update-index --no-assume-unchanged"
+
+[core]
+    editor = 'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin
+
+[credential]
+    helper = manager
+
+[diff]
+    tool = p4merge
+
+[difftool]
+    prompt = false
+
+[difftool "p4merge"]
+    cmd = 'C:/Program Files/Perforce/p4merge.exe' \"$LOCAL\" \"$REMOTE\"
+
+[difftool "meld"]
+    cmd = 'C:/Program Files (x86)/Meld/meld.exe' \"$LOCAL\" \"$REMOTE\"
+
+[log]
+    graphColors = green, bold green, white, bold yellow, red, cyan, bold cyan, magenta, bold magenta, bold blue
+
+[merge]
+    tool = p4merge
+
+[mergetool]
+    prompt = false
+    keepBackup = false
+
+[mergetool "p4merge"]
+    cmd = 'C:/Program Files/Perforce/p4merge.exe' \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
+
+[mergetool "meld"]
+    cmd = 'C:/Program Files (x86)/Meld/meld.exe' \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
+
+[push]
+    default = nothing
+
+[user]
+    name = ""
+    email = ""
