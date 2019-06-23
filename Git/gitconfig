@@ -16,11 +16,14 @@
 [difftool]
     prompt = false
 
+[difftool "meld"]
+    cmd = 'C:/Program Files (x86)/Meld/meld.exe' \"$LOCAL\" \"$REMOTE\"
+
 [difftool "p4merge"]
     cmd = 'C:/Program Files/Perforce/p4merge.exe' \"$LOCAL\" \"$REMOTE\"
 
-[difftool "meld"]
-    cmd = 'C:/Program Files (x86)/Meld/meld.exe' \"$LOCAL\" \"$REMOTE\"
+[difftool "semanticmerge"]
+    cmd = \"C:\\Users\\S6857B\\AppData\\Local\\semanticmerge\\semanticmergetool.exe\" -s \"$LOCAL\" -d \"$REMOTE\" --nolangwarn
 
 [log]
     graphColors = green, bold green, white, bold yellow, red, cyan, bold cyan, magenta, bold magenta, bold blue
@@ -32,11 +35,15 @@
     prompt = false
     keepBackup = false
 
+[mergetool "meld"]
+    cmd = 'C:/Program Files (x86)/Meld/meld.exe' \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
+
 [mergetool "p4merge"]
     cmd = 'C:/Program Files/Perforce/p4merge.exe' \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
 
-[mergetool "meld"]
-    cmd = 'C:/Program Files (x86)/Meld/meld.exe' \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
+[mergetool "semanticmerge"]
+    cmd = \"C:\\Users\\S6857B\\AppData\\Local\\semanticmerge\\semanticmergetool.exe\" -s \"$LOCAL\" -d \"$REMOTE\" -b \"$BASE\" -r \"$MERGED\" --nolangwarn
+    trustexitcode = true
 
 [push]
     default = nothing
