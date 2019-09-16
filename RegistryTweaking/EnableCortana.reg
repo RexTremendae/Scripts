@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; http://windowsreport.com/file-explorer-slow-windows-10/
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search]
+"AllowCortana"=dword:00000001
