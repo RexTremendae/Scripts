@@ -46,6 +46,9 @@
     cmd = \"C:\\Users\\S6857B\\AppData\\Local\\semanticmerge\\semanticmergetool.exe\" -s \"$LOCAL\" -d \"$REMOTE\" -b \"$BASE\" -r \"$MERGED\" --nolangwarn
     trustexitcode = true
 
+[pull]
+    rebase = true
+
 [push]
     default = nothing
 
