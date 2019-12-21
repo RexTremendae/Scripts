@@ -2,6 +2,7 @@
     fp      = "push --force-with-lease"
     graph   = "log --graph --pretty=format:'%C(cyan)%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(yellow)<%an>%Creset' --abbrev-commit"
     ign     = "update-index --assume-unchanged"
+    pop     = "stash pop"
     unign   = "update-index --no-assume-unchanged"
 
 [core]
