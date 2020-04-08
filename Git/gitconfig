@@ -53,6 +53,9 @@
 [push]
     default = nothing
 
+[rebase]
+    instructionFormat = "%s   -@-   <%ae>"
+
 [user]
     name = ""
     email = ""
