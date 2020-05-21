@@ -55,6 +55,7 @@
 
 [rebase]
     instructionFormat = "%s   -@-   <%ae>"
+    missingCommitsCheck = "warn"
 
 [user]
     name = ""
