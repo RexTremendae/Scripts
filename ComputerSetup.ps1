@@ -1,4 +1,6 @@
 $apps =
+"microsoft-windows-terminal",
+"firefox",
 "git",
 "visualstudiocode",
 "notepadplusplus",
@@ -42,4 +44,3 @@ $apps | ForEach-Object {
     cinst $_ -y
     $count = $count + 1
 }
-
