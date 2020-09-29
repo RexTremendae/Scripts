@@ -48,12 +48,15 @@ $GitPromptScriptBlock = {
         Write-Prompt $expandedDefaultPromptPrefix
     }
 
-    # Write the abbreviated current path
-    $currentPath = $ExecutionContext.SessionState.InvokeCommand.ExpandString($GitPromptSettings.DefaultPromptPath)
-    Write-Prompt $currentPath
-
+# MODIFIED! (Swapped order)
     # Write the Git status summary information
     Write-VcsStatus
+
+    # Write the abbreviated current path
+    $currentPath = $ExecutionContext.SessionState.InvokeCommand.ExpandString($GitPromptSettings.DefaultPromptPath)
+    Write-Host
+    Write-Prompt $currentPath
+# MODIFIED!
 
     # If stopped in the debugger, the prompt needs to indicate that in some fashion
     $hasInBreakpoint = [runspace]::DefaultRunspace.Debugger | Get-Member -Name InBreakpoint -MemberType property
