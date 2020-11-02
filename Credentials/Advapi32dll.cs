@@ -112,7 +112,7 @@ namespace Credentials
             return CredDelete(target, type, 0);
         }
 
-        [StructLayout(LayoutKind.Seque­ntial, CharSet=CharSet.Unicode)]
+        [StructLayout(LayoutKind.Sequential, CharSet=CharSet.Unicode)]
         public struct CREDENTIAL
         {
             public UInt32 Flags;
