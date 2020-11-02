@@ -5,6 +5,7 @@ $apps =
 "visualstudiocode",
 "notepadplusplus",
 "7zip",
+"python3",
 "vlc",
 "winscp",
 "linqpad",
