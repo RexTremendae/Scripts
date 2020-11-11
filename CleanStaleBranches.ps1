@@ -38,6 +38,11 @@ $actionColor = "Red"
 $noActionColor = "Cyan"
 
 
+# In case åäö is used in branch names, Invoke-Expression will screw up the encoding.
+# This line fixes this problem (Invoke-Expression is called in ExecuteAndExitOnError)
+[Console]::OutputEncoding = [Text.UTF8Encoding]::UTF8
+
+
 ######################
 #  Main entry point  #
 ######################
