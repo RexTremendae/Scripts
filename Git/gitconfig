@@ -1,6 +1,6 @@
 [alias]
     fp      = "push --force-with-lease"
-    graph   = "log --graph --pretty=format:'%C(cyan)%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(yellow)<%an>%Creset' --abbrev-commit"
+    graph   = "log --graph --pretty=format:'%C(cyan)%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(yellow)<%an>%Creset' --abbrev-commit -20"
     head    = "show HEAD --name-status"
     ign     = "update-index --assume-unchanged"
     pop     = "stash pop"
