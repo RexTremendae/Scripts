@@ -70,6 +70,12 @@ Set-PSReadLineKeyHandler -Key 'DownArrow' -ScriptBlock {
     [Microsoft.PowerShell.PSConsoleReadLine]::SetCursorPosition($line.Length)
 }
 
+# Work around an RS5/PSReadline-2.0.0+beta2 bug
+# Without this, shift+space won't produce a space
+Set-PSReadlineKeyHandler "Shift+SpaceBar" -ScriptBlock {
+    [Microsoft.Powershell.PSConsoleReadLine]::Insert(' ')
+}
+
 Set-PSReadlineOption -BellStyle None
 
 $GitPromptSettings.BeforeText = '['
