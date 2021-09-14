@@ -6,6 +6,7 @@
     ign     = "update-index --assume-unchanged"
     pop     = "stash pop"
     unign   = "update-index --no-assume-unchanged"
+    wip     = "commit -a -m 'WIP'"
 
 [core]
     editor = \"C:\\Program Files\\Microsoft VS Code\\Code.exe\" --wait --new-window
