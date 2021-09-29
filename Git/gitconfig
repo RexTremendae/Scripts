@@ -11,6 +11,7 @@
 [core]
     editor = \"C:\\Program Files\\Microsoft VS Code\\Code.exe\" --wait --new-window
     #editor = 'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin
+    quotePath = false # helps handling filenames with åäö
 
 [credential]
     helper = manager
