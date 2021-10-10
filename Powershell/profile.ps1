@@ -82,3 +82,5 @@ $GitPromptSettings.BeforeText = '['
 
 
 Write-Host
+
+$PSDefaultParameterValues['*:Encoding'] = 'UTF8'
