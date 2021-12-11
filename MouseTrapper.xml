@@ -1,0 +1,544 @@
+<?xml version="1.0"?>
+<Profiles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>
+    <Name>Superior</Name>
+    <Configuration>
+      <EdgeScroll>
+        <while_moving>true</while_moving>
+      </EdgeScroll>
+      <keyboard>
+        <swap_f_keys>0</swap_f_keys>
+        <fn_map>
+          <mapping name="mt_button_kbd_map_0">
+            <modifiers>Fn</modifiers>
+            <scan_code>F1</scan_code>
+          </mapping>
+          <mapping name="mt_button_kbd_map_1">
+            <modifiers>Fn</modifiers>
+            <scan_code>F2</scan_code>
+          </mapping>
+          <mapping name="mt_button_kbd_map_2">
+            <modifiers>Fn</modifiers>
+            <scan_code>F3</scan_code>
+          </mapping>
+          <mapping name="mt_button_kbd_map_3">
+            <modifiers>Fn</modifiers>
+            <scan_code>F4</scan_code>
+          </mapping>
+          <mapping name="mt_button_kbd_map_4">
+            <modifiers>Fn</modifiers>
+            <scan_code>F5</scan_code>
+          </mapping>
+          <mapping name="mt_button_kbd_map_5">
+            <modifiers>Fn</modifiers>
+            <scan_code>F6</scan_code>
+          </mapping>
+          <mapping name="mt_button_kbd_map_6">
+            <modifiers>Fn</modifiers>
+            <scan_code>F7</scan_code>
+          </mapping>
+          <mapping name="mt_button_kbd_map_7">
+            <modifiers>Fn</modifiers>
+            <scan_code>F8</scan_code>
+          </mapping>
+          <mapping name="mt_button_kbd_map_8">
+            <modifiers>Fn</modifiers>
+            <scan_code>F9</scan_code>
+          </mapping>
+          <mapping name="mt_button_kbd_map_9">
+            <modifiers>Fn</modifiers>
+            <scan_code>F10</scan_code>
+          </mapping>
+          <mapping name="mt_button_kbd_map_a">
+            <modifiers>Fn</modifiers>
+            <scan_code>F11</scan_code>
+          </mapping>
+          <mapping name="mt_button_kbd_map_b">
+            <modifiers>Fn</modifiers>
+            <scan_code>PRINTSCREEN</scan_code>
+          </mapping>
+          <mapping name="mt_button_kbd_map_c">
+            <modifiers>Fn</modifiers>
+            <scan_code>LEFT</scan_code>
+          </mapping>
+          <mapping name="mt_button_kbd_map_d">
+            <modifiers>Fn</modifiers>
+            <scan_code>RIGHT</scan_code>
+          </mapping>
+          <mapping name="mt_button_kbd_map_e">
+            <modifiers>Fn</modifiers>
+            <scan_code>UP</scan_code>
+          </mapping>
+          <mapping name="mt_button_kbd_map_f">
+            <modifiers>Fn</modifiers>
+            <scan_code>DOWN</scan_code>
+          </mapping>
+          <mapping name="mt_button_kbd_map_10">
+            <modifiers>Fn</modifiers>
+            <scan_code>ENTER</scan_code>
+          </mapping>
+          <mapping name="mt_button_kbd_map_11">
+            <modifiers>Fn</modifiers>
+          </mapping>
+          <mapping name="mt_button_kbd_map_12">
+            <modifiers>Fn</modifiers>
+          </mapping>
+          <mapping name="mt_button_kbd_map_13">
+            <modifiers>Fn</modifiers>
+            <scan_code>W</scan_code>
+          </mapping>
+          <mapping name="mt_button_kbd_map_14">
+            <modifiers>Fn</modifiers>
+            <scan_code>X</scan_code>
+          </mapping>
+          <mapping name="mt_button_kbd_map_15">
+            <modifiers>Fn</modifiers>
+            <scan_code>A</scan_code>
+          </mapping>
+          <mapping name="mt_button_kbd_map_16">
+            <modifiers>Fn</modifiers>
+            <scan_code>D</scan_code>
+          </mapping>
+          <mapping name="mt_button_kbd_map_17">
+            <modifiers>Fn</modifiers>
+            <scan_code>SPACEBAR</scan_code>
+          </mapping>
+          <mapping name="mt_button_kbd_map_18">
+            <modifiers>Fn+CTRL+SHIFT</modifiers>
+            <scan_code>S</scan_code>
+          </mapping>
+          <mapping name="mt_button_kbd_map_19">
+            <modifiers>Fn+CTRL+SHIFT</modifiers>
+            <scan_code>M</scan_code>
+          </mapping>
+          <mapping name="mt_button_kbd_map_1a">
+            <modifiers>Fn</modifiers>
+            <scan_code>ONE</scan_code>
+          </mapping>
+          <mapping name="mt_button_kbd_map_1b">
+            <modifiers>Fn</modifiers>
+            <scan_code>TWO</scan_code>
+          </mapping>
+          <mapping name="mt_button_kbd_map_1c">
+            <modifiers>Fn</modifiers>
+            <scan_code>THREE</scan_code>
+          </mapping>
+          <mapping name="mt_button_kbd_map_1d">
+            <modifiers>Fn</modifiers>
+            <scan_code>FOUR</scan_code>
+          </mapping>
+          <mapping name="mt_button_kbd_map_1e">
+            <modifiers>Fn</modifiers>
+            <scan_code>DELETE</scan_code>
+          </mapping>
+          <mapping name="mt_button_kbd_map_1f">
+            <modifiers>Fn</modifiers>
+            <scan_code>B</scan_code>
+          </mapping>
+        </fn_map>
+      </keyboard>
+      <flags>
+        <avoid_edges>true</avoid_edges>
+      </flags>
+      <speed_class>0</speed_class>
+      <config>
+        <usbrcosc>0</usbrcosc>
+        <scroll_light_level>1950</scroll_light_level>
+        <click_threshold>0</click_threshold>
+        <low_bat_limit>3750</low_bat_limit>
+        <scale_index>
+          <value>15</value>
+          <value>15</value>
+          <value>40</value>
+          <value>15</value>
+        </scale_index>
+        <speed_index>
+          <value>2</value>
+          <value>0</value>
+        </speed_index>
+        <keyboard>
+          <light_level>0</light_level>
+          <delay>2</delay>
+          <layout>0</layout>
+        </keyboard>
+        <media_button>
+          <button_delay>4</button_delay>
+        </media_button>
+        <mouse>
+          <click_remove_time>22</click_remove_time>
+          <click_remove_delta>22</click_remove_delta>
+          <pre_move_remove_time>0</pre_move_remove_time>
+          <pre_move_remove_delta>0</pre_move_remove_delta>
+          <move_delay>16</move_delay>
+          <move_threshold>70</move_threshold>
+          <speed_threshold>70</speed_threshold>
+          <button_delay>4</button_delay>
+          <fork_speed>12</fork_speed>
+          <light_level>
+            <value>0</value>
+            <value>0</value>
+          </light_level>
+        </mouse>
+        <ble>
+          <radio_channel>0</radio_channel>
+          <security_mode>Keyboard</security_mode>
+        </ble>
+      </config>
+      <buttons>
+        <button name="mt_button_click">
+          <configuration type="program_type_mouse_pad">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_run_to_end</stop>
+            <mouse button="Left" />
+          </configuration>
+        </button>
+        <button name="mt_button_1">
+          <configuration type="program_type_zoom">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_run_to_end</stop>
+            <mouse>
+              <speed>-75</speed>
+              <axis>Z</axis>
+            </mouse>
+          </configuration>
+        </button>
+        <button name="mt_button_2">
+          <configuration type="program_type_short_cut">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_follow_physical</stop>
+            <short_cut>
+              <modifiers>CTRL</modifiers>
+              <scan_code>C</scan_code>
+            </short_cut>
+          </configuration>
+        </button>
+        <button name="mt_button_3">
+          <configuration type="program_type_double_click">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_run_to_end</stop>
+            <mouse button="Left" />
+          </configuration>
+        </button>
+        <button name="mt_button_4">
+          <configuration type="program_type_button_click">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_follow_physical</stop>
+            <mouse button="Middle" />
+          </configuration>
+        </button>
+        <button name="mt_button_5">
+          <configuration type="program_type_switch_screen">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_run_to_end</stop>
+            <mouse />
+          </configuration>
+        </button>
+        <button name="mt_button_6">
+          <configuration type="program_type_button_click">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_follow_physical</stop>
+            <mouse button="Right" />
+          </configuration>
+        </button>
+        <button name="mt_button_7">
+          <configuration type="program_type_short_cut">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_follow_physical</stop>
+            <short_cut>
+              <modifiers>CTRL</modifiers>
+              <scan_code>V</scan_code>
+            </short_cut>
+          </configuration>
+        </button>
+        <button name="mt_button_8">
+          <configuration type="program_type_zoom">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_run_to_end</stop>
+            <mouse>
+              <speed>75</speed>
+              <axis>Z</axis>
+            </mouse>
+          </configuration>
+        </button>
+        <button name="mt_button_fork_right">
+          <configuration type="program_type_fork_static">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_follow_physical</stop>
+            <mouse>
+              <speed>1</speed>
+            </mouse>
+          </configuration>
+        </button>
+        <button name="mt_button_fork_left">
+          <configuration type="program_type_fork_static">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_follow_physical</stop>
+            <mouse>
+              <speed>-1</speed>
+            </mouse>
+          </configuration>
+        </button>
+        <button name="mt_button_scroll">
+          <configuration type="program_type_edge_scroll">
+            <start>button_type_start_always</start>
+            <stop>button_type_run_to_end</stop>
+            <mouse>
+              <axis>Z</axis>
+            </mouse>
+          </configuration>
+        </button>
+        <button name="mt_button_kbd_map_0">
+          <configuration type="program_type_radio">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_run_to_end</stop>
+            <radio cmd="Channel">
+              <channel>0</channel>
+            </radio>
+          </configuration>
+        </button>
+        <button name="mt_button_kbd_map_1">
+          <configuration type="program_type_radio">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_run_to_end</stop>
+            <radio cmd="Channel">
+              <channel>1</channel>
+            </radio>
+          </configuration>
+        </button>
+        <button name="mt_button_kbd_map_2">
+          <configuration type="program_type_media_button">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_run_to_end</stop>
+            <media_button button="PlayPause" />
+          </configuration>
+        </button>
+        <button name="mt_button_kbd_map_3">
+          <configuration type="program_type_media_button">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_run_to_end</stop>
+            <media_button button="ScanPreviousTrack" />
+          </configuration>
+        </button>
+        <button name="mt_button_kbd_map_4">
+          <configuration type="program_type_media_button">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_run_to_end</stop>
+            <media_button button="ScanNextTrack" />
+          </configuration>
+        </button>
+        <button name="mt_button_kbd_map_5">
+          <configuration type="program_type_media_button">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_run_to_end</stop>
+            <media_button button="Mute" />
+          </configuration>
+        </button>
+        <button name="mt_button_kbd_map_6">
+          <configuration type="program_type_media_button">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_run_to_end</stop>
+            <media_button button="VolumeDecrement" />
+          </configuration>
+        </button>
+        <button name="mt_button_kbd_map_7">
+          <configuration type="program_type_media_button">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_run_to_end</stop>
+            <media_button button="VolumeIncrement" />
+          </configuration>
+        </button>
+        <button name="mt_button_kbd_map_8">
+          <configuration type="program_type_media_button">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_run_to_end</stop>
+            <media_button button="ScreenBrightDecrease" />
+          </configuration>
+        </button>
+        <button name="mt_button_kbd_map_9">
+          <configuration type="program_type_media_button">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_run_to_end</stop>
+            <media_button button="ScreenBrightIncrease" />
+          </configuration>
+        </button>
+        <button name="mt_button_kbd_map_a">
+          <configuration type="program_type_short_cut">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_follow_physical</stop>
+            <short_cut>
+              <modifiers>NONE</modifiers>
+              <scan_code>F12</scan_code>
+            </short_cut>
+          </configuration>
+        </button>
+        <button name="mt_button_kbd_map_b">
+          <configuration type="program_type_keyboard_cmd">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_run_to_end</stop>
+            <keyboard cmd="BackLight" />
+          </configuration>
+        </button>
+        <button name="mt_button_kbd_map_c">
+          <configuration type="program_type_short_cut">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_follow_physical</stop>
+            <short_cut>
+              <modifiers>NONE</modifiers>
+              <scan_code>HOME</scan_code>
+            </short_cut>
+          </configuration>
+        </button>
+        <button name="mt_button_kbd_map_d">
+          <configuration type="program_type_short_cut">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_follow_physical</stop>
+            <short_cut>
+              <modifiers>NONE</modifiers>
+              <scan_code>END</scan_code>
+            </short_cut>
+          </configuration>
+        </button>
+        <button name="mt_button_kbd_map_e">
+          <configuration type="program_type_short_cut">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_follow_physical</stop>
+            <short_cut>
+              <modifiers>NONE</modifiers>
+              <scan_code>PAGEUP</scan_code>
+            </short_cut>
+          </configuration>
+        </button>
+        <button name="mt_button_kbd_map_f">
+          <configuration type="program_type_short_cut">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_follow_physical</stop>
+            <short_cut>
+              <modifiers>NONE</modifiers>
+              <scan_code>PAGEDOWN</scan_code>
+            </short_cut>
+          </configuration>
+        </button>
+        <button name="mt_button_kbd_map_10">
+          <configuration type="program_type_system_cmd">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_run_to_end</stop>
+            <system cmd="Print" />
+          </configuration>
+        </button>
+        <button name="mt_button_kbd_map_13">
+          <configuration type="program_type_mouse_move">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_follow_physical</stop>
+            <mouse>
+              <speed>-1</speed>
+              <axis>Y</axis>
+            </mouse>
+          </configuration>
+        </button>
+        <button name="mt_button_kbd_map_14">
+          <configuration type="program_type_mouse_move">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_follow_physical</stop>
+            <mouse>
+              <speed>1</speed>
+              <axis>Y</axis>
+            </mouse>
+          </configuration>
+        </button>
+        <button name="mt_button_kbd_map_15">
+          <configuration type="program_type_mouse_move">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_follow_physical</stop>
+            <mouse>
+              <speed>-1</speed>
+            </mouse>
+          </configuration>
+        </button>
+        <button name="mt_button_kbd_map_16">
+          <configuration type="program_type_mouse_move">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_follow_physical</stop>
+            <mouse>
+              <speed>1</speed>
+            </mouse>
+          </configuration>
+        </button>
+        <button name="mt_button_kbd_map_17">
+          <configuration type="program_type_button_click">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_follow_physical</stop>
+            <mouse button="Left" />
+          </configuration>
+        </button>
+        <button name="mt_button_kbd_map_18">
+          <configuration type="program_type_system_cmd">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_run_to_end</stop>
+            <system cmd="ConfigureMode" />
+          </configuration>
+        </button>
+        <button name="mt_button_kbd_map_19">
+          <configuration type="program_type_system_cmd">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_run_to_end</stop>
+            <system cmd="ToggleMacMode" />
+          </configuration>
+        </button>
+        <button name="mt_button_kbd_map_1a">
+          <configuration type="program_type_radio">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_run_to_end</stop>
+            <radio cmd="Channel">
+              <channel>0</channel>
+            </radio>
+          </configuration>
+        </button>
+        <button name="mt_button_kbd_map_1b">
+          <configuration type="program_type_radio">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_run_to_end</stop>
+            <radio cmd="Channel">
+              <channel>1</channel>
+            </radio>
+          </configuration>
+        </button>
+        <button name="mt_button_kbd_map_1c">
+          <configuration type="program_type_radio">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_run_to_end</stop>
+            <radio cmd="Channel">
+              <channel>2</channel>
+            </radio>
+          </configuration>
+        </button>
+        <button name="mt_button_kbd_map_1d">
+          <configuration type="program_type_radio">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_run_to_end</stop>
+            <radio cmd="Channel">
+              <channel>3</channel>
+            </radio>
+          </configuration>
+        </button>
+        <button name="mt_button_kbd_map_1e">
+          <configuration type="program_type_radio">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_run_to_end</stop>
+            <radio cmd="Forget" />
+          </configuration>
+        </button>
+        <button name="mt_button_kbd_map_1f">
+          <configuration type="program_type_radio">
+            <start>button_type_local_exclusive</start>
+            <stop>button_type_run_to_end</stop>
+            <radio cmd="State">
+              <state>Toggle</state>
+            </radio>
+          </configuration>
+        </button>
+      </buttons>
+    </Configuration>
+    <CRC>dc2493f5</CRC>
+    <Type>Alpha</Type>
+  </Profile>
+</Profiles>
