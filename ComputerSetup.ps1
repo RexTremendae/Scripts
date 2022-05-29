@@ -6,11 +6,10 @@ $apps =
 "notepadplusplus",
 "7zip",
 "python3",
-"vlc",
-"winscp",
 "linqpad",
 "slack",
 "paint.net",
+"p4merge",
 "spotify"
 
 
