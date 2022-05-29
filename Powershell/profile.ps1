@@ -21,7 +21,7 @@ if ($PSVersionTable.PSVersion.Major -lt 6)
     Import-With-Output 'JumpLocation' 'C:\PowerShell\Modules\Jump-Location\Jump.Location.psd1'
 }
 Import-With-Output 'PowerLS' 'C:\PowerShell\Modules\PowerLS\powerls.psm1'
-Import-With-Output 'Posh-Git' 'C:\PowerShell\Modules\posh-git-0.7.1\posh-git.psd1'
+Import-With-Output 'Posh-Git' 'C:\PowerShell\Modules\posh-git-1.1.0\posh-git.psd1'
 
 
 
@@ -78,9 +78,12 @@ Set-PSReadlineKeyHandler "Shift+SpaceBar" -ScriptBlock {
 
 Set-PSReadlineOption -BellStyle None
 
-$GitPromptSettings.BeforeText = '['
-
-
 Write-Host
 
 $PSDefaultParameterValues['*:Encoding'] = 'UTF8'
+
+
+# Posh Git settings
+$GitPromptSettings.PathStatusSeparator.Text = '`n'
+$GitPromptSettings.DefaultPromptWriteStatusFirst = $true
+$GitPromptSettings.DefaultPromptAbbreviateGitDirectory = $true
