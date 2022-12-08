@@ -31,6 +31,9 @@
 [difftool "semanticmerge"]
     cmd = \"C:\\Users\\S6857B\\AppData\\Local\\semanticmerge\\semanticmergetool.exe\" -s \"$LOCAL\" -d \"$REMOTE\" --nolangwarn
 
+[fetch]
+    prune = true
+
 [log]
     graphColors = green, bold green, white, bold yellow, red, cyan, bold cyan, magenta, bold magenta, bold blue
 
