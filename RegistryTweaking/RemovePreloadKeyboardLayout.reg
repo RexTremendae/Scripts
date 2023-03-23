@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Said to help prevent automatically adding of unwanted keyboard layouts:
+; https://superuser.com/questions/1146973/united-kingdom-keyboard-language-is-added-automatically
+[-HKEY_USERS\.DEFAULT\Keyboard Layout\Preload]
