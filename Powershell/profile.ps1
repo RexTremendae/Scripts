@@ -50,6 +50,9 @@ Import-Module C:\Powershell\profileFunctions.psm1
 $env:Path += ";C:\Program Files (x86)\Microsoft SDKs\F#\4.0\Framework\v4.0;C:\Program Files (x86)\Microsoft Visual Studio 14.0\vc\bin;C:\Program Files (x86)\Windows Kits\10\bin\x86;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\Roslyn"
 $env:LC_ALL = 'C.UTF-8'
 
+# The launch browser feature has the side effect of removing console colors. Suprressing this will conserve color output during dotnet watch operations.
+$env:DOTNET_WATCH_SUPPRESS_LAUNCH_BROWSER=1
+
 Set-PSReadLineKeyHandler -Key 'UpArrow' -ScriptBlock {
     param($key, $arg)
 
