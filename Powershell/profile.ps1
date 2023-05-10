@@ -25,13 +25,14 @@ Import-With-Output 'Posh-Git' 'C:\PowerShell\Modules\posh-git-1.1.0\posh-git.psd
 
 
 
-
 ##########
 # Aliases
 ###################################################################################################
 Write-Bullet
 Write-Host 'Defining aliases'
 Set-Alias -Name ls -Value PowerLS -Option AllScope -Scope Global
+Set-Alias -Name g -Value git -Option AllScope -Scope Global
+Set-Alias -Name d -Value dotnet -Option AllScope -Scope Global
 
 
 
@@ -41,6 +42,25 @@ Set-Alias -Name ls -Value PowerLS -Option AllScope -Scope Global
 Write-Bullet
 Write-Host 'Importing custom functions'
 Import-Module C:\Powershell\profileFunctions.psm1
+
+
+
+################################
+# Completion for the dotnet CLI
+###################################################################################################
+Register-ArgumentCompleter -Native -CommandName d -ScriptBlock {
+    param($commandName, $wordToComplete, $cursorPosition)
+        dotnet complete --position $cursorPosition "$wordToComplete" | ForEach-Object {
+           [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterValue', $_)
+        }
+}
+
+Register-ArgumentCompleter -Native -CommandName dotnet -ScriptBlock {
+    param($commandName, $wordToComplete, $cursorPosition)
+        dotnet complete --position $cursorPosition "$wordToComplete" | ForEach-Object {
+           [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterValue', $_)
+        }
+}
 
 
 
