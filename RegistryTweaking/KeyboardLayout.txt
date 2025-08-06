@@ -1,0 +1,8 @@
+A fix for extra keyboard layout reappearing. The problem is that I have configured US and SWE keyboards,
+but every now and then a UK keyboard gets autmatically added to the list.
+
+In the registry, under:
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\ContentIndex\Language
+
+There is a subkey for each language. Remove the whole sub key for the unwanted language (UK in this case).
+Log out and in again.
