@@ -18,10 +18,10 @@ function Import-With-Output ($displayName, $path)
 
 if ($PSVersionTable.PSVersion.Major -lt 6)
 {
-    Import-With-Output 'JumpLocation' 'C:\PowerShell\Modules\Jump-Location\Jump.Location.psd1'
+    Import-With-Output 'JumpLocation' "$PSScriptRoot/Modules/Jump-Location/Jump.Location.psd1"
 }
-Import-With-Output 'PowerLS' 'C:\PowerShell\Modules\PowerLS\powerls.psm1'
-Import-With-Output 'Posh-Git' 'C:\PowerShell\Modules\posh-git-1.1.0\posh-git.psd1'
+Import-With-Output 'PowerLS' "$PSScriptRoot/Modules/PowerLS/powerls.psm1"
+Import-With-Output 'Posh-Git' "$PSScriptRoot/Modules/posh-git-1.1.0/posh-git.psd1"
 
 
 
@@ -41,7 +41,7 @@ Set-Alias -Name d -Value dotnet -Option AllScope -Scope Global
 ###################################################################################################
 Write-Bullet
 Write-Host 'Importing custom functions'
-Import-Module C:\Powershell\profileFunctions.psm1
+Import-Module "$PSScriptRoot/profileFunctions.psm1"
 
 
 
